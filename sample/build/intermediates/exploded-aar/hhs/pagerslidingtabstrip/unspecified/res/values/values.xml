@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="reference|color" name="slidingBlock"/><attr format="boolean" name="allowWidthFull"/><attr format="boolean" name="disableViewPager"/><attr format="boolean" name="disableTensileSlidingBlock"/></declare-styleable>
+</resources>

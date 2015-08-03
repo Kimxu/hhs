@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Skin.Compat.Default" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="actionOverflowButtonStyle">@style/Skin.Base.Default.Overflow</item>
+    </style>
+
+    <style name="Skin.Compat.Other" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="actionOverflowButtonStyle">@style/Skin.Base.Other.Overflow</item>
+    </style>
+
+    <!-- 皮肤 - 基础的 - 默认 -->
+    <style name="Skin.Base.Default" parent="Skin.Compat.Default">
+        <item name="navigationTabStripIconRecommend">@drawable/ic_tab_recomment_blue</item>
+        <item name="navigationTabStripIconCategory">@drawable/ic_tab_category_blue</item>
+        <item name="navigationTabStripIconNewGame">@drawable/ic_tab_new_game_blue</item>
+        <item name="navigationTabStripIconNews">@drawable/ic_tab_news_blue</item>
+        <item name="navigationTabStripIconComment">@drawable/ic_tab_comment_blue</item>
+        <item name="navigationTabStripIconGroup">@drawable/ic_tab_group_blue</item>
+        <item name="navigationTabStripIconList">@drawable/ic_tab_list_blue</item>
+        <item name="navigationTabStripTextColor">@android:color/black</item>
+        <item name="navigationTabStripSlidingBlock">@drawable/pager_sliding_block_blue</item>
+        <item name="actionBarMenuIconSetting">@drawable/ic_actionbar_setting</item>
+        <item name="actionBarMenuIconDownload">@drawable/mc_1_update_menu_download</item>
+        <item name="actionBarMenuIconManageCenter">@drawable/ic_manage</item>
+        <item name="actionBarMenuIconShare">@drawable/ic_actionbar_share</item>
+        <item name="actionBarMenuIconAdd">@drawable/ic_actionbar_bar_add</item>
+        <item name="actionBarMenuIconRemove">@drawable/ic_actionbar_bar_remove</item>
+        <item name="actionBarMenuIconSortByDownload">@drawable/sortbydownload</item>
+        <item name="actionBarMenuIconSortByHot">@drawable/sortbyhot</item>
+        <item name="actionBarMenuIconSelectItems">@drawable/sort_select</item>
+        <item name="actionBarMenuIconSortByName">@drawable/sortbyname</item>
+        <item name="actionBarMenuIconSortBySize">@drawable/sortbysize</item>
+        <item name="actionBarMenuIconSortByTime">@drawable/sortbytime</item>
+        <item name="actionBarMenuIconViewHistory">@drawable/ic_actionbar_history</item>
+        <item name="actionBarMenuIconSortByView">@drawable/ic_act_sort_by_view_normal</item>
+        <item name="actionBarMenuIconSortByCount">@drawable/ic_act_sort_by_count_normal</item>
+        <item name="actionBarMenuIconSortBySupport">@drawable/ic_sort_by_support_normal</item>
+        <item name="actionBarMenuIconFilterByInstalled">@drawable/sort_install</item>
+        <item name="actionBarMenuIconFilterByBroken">@drawable/sort_broken</item>
+        <item name="actionBarMenuIconFilterByDuplicate">@drawable/sort_duplicate</item>
+        <item name="actionBarMenuIconColorPicker">@drawable/ic_color_picker</item>
+        <item name="actionBarMenuIconMore">@drawable/ic_more</item>
+        <item name="actionBarMenuTextColor">#1588FE</item>
+        <item name="searchBarBack">@drawable/ic_home_as_up</item>
+        <item name="searchBarSearch">@drawable/ic_home_as_up</item>
+        <item name="searchBarInputText">@drawable/ic_home_as_up</item>
+        <item name="searchBarInputTextColor">#484e5a</item>
+        <item name="searchBarInputTextHintColor">#b9b9b9</item>
+    </style>
+
+    <!-- 皮肤 - 基础的 - 其它 -->
+    <style name="Skin.Base.Other" parent="Skin.Compat.Other">
+        <item name="navigationTabStripIconRecommend">@drawable/ic_tab_recomment_white</item>
+        <item name="navigationTabStripIconCategory">@drawable/ic_tab_category_white</item>
+        <item name="navigationTabStripIconNewGame">@drawable/ic_tab_new_game_white</item>
+        <item name="navigationTabStripIconNews">@drawable/ic_tab_news_white</item>
+        <item name="navigationTabStripIconComment">@drawable/ic_tab_comment_white</item>
+        <item name="navigationTabStripIconGroup">@drawable/ic_tab_group_white</item>
+        <item name="navigationTabStripIconList">@drawable/ic_tab_list_white</item>
+        <item name="navigationTabStripTextColor">#AEFFFFFF</item>
+        <item name="navigationTabStripSlidingBlock">@drawable/pager_sliding_block_white</item>
+        <item name="actionBarMenuIconSetting">@drawable/ic_actionbar_setting_white</item>
+        <item name="actionBarMenuIconDownload">@drawable/mc_1_update_menu_download_white</item>
+        <item name="actionBarMenuIconManageCenter">@drawable/ic_manage_white</item>
+        <item name="actionBarMenuIconShare">@drawable/ic_actionbar_share_white</item>
+        <item name="actionBarMenuIconAdd">@drawable/ic_actionbar_bar_add_white</item>
+        <item name="actionBarMenuIconRemove">@drawable/ic_actionbar_bar_remove_white</item>
+        <item name="actionBarMenuIconSortByDownload">@drawable/sortbydownload_white</item>
+        <item name="actionBarMenuIconSortByHot">@drawable/sortbyhot_white</item>
+        <item name="actionBarMenuIconSelectItems">@drawable/sort_select_white</item>
+        <item name="actionBarMenuIconSortByName">@drawable/sortbyname_white</item>
+        <item name="actionBarMenuIconSortBySize">@drawable/sortbysize_white</item>
+        <item name="actionBarMenuIconSortByTime">@drawable/sortbytime_white</item>
+        <item name="actionBarMenuIconViewHistory">@drawable/ic_actionbar_history_white</item>
+        <item name="actionBarMenuIconSortByView">@drawable/ic_act_sort_by_view_white</item>
+        <item name="actionBarMenuIconSortByCount">@drawable/ic_act_sort_by_count_white</item>
+        <item name="actionBarMenuIconSortBySupport">@drawable/ic_act_sort_by_support_white</item>
+        <item name="actionBarMenuIconFilterByInstalled">@drawable/sort_install_white</item>
+        <item name="actionBarMenuIconFilterByBroken">@drawable/sort_broken_white</item>
+        <item name="actionBarMenuIconFilterByDuplicate">@drawable/sort_duplicate_white</item>
+        <item name="actionBarMenuIconColorPicker">@drawable/ic_color_picker_white</item>
+        <item name="actionBarMenuIconMore">@drawable/ic_more_white</item>
+        <item name="actionBarMenuTextColor">#FFFFFF</item>
+        <item name="searchBarBack">@drawable/ic_home_as_up_white</item>
+        <item name="searchBarSearch">@drawable/ic_innersearch_white</item>
+        <item name="searchBarInputText">@drawable/textfield_search_white</item>
+        <item name="searchBarInputTextColor">#ffffff</item>
+        <item name="searchBarInputTextHintColor">#b2ffffff</item>
+    </style>
+
+    <!-- 皮肤 - 基础的 - 默认 - ActionBar标题的样式 -->
+    <style name="Skin.Base.Default.ActionBar.Title" parent="TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#808080</item>
+    </style>
+
+    <!-- 皮肤 - 基础的 - 其它 - ActionBar标题的样式 -->
+    <style name="Skin.Base.Other.ActionBar.Title" parent="TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- 皮肤 - 基础的 - 默认 - ActionBar样式 -->
+    <style name="Skin.Base.Default.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/Skin.Base.Default.ActionBar.Title</item>
+    </style>
+
+    <!-- 皮肤 - 基础的 - 其它 - ActionBar样式 -->
+    <style name="Skin.Base.Other.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/Skin.Base.Other.ActionBar.Title</item>
+    </style>
+
+    <!-- 皮肤 - 基础的 - 默认 - Overflow样式 -->
+    <style name="Skin.Base.Default.Overflow">
+        <item name="android:src">@drawable/abs__ic_menu_moreoverflow_holo_light</item>
+        <item name="android:background">@drawable/abs__yingyonghui_actionbar_background</item>
+        <item name="android:contentDescription">@string/abs__action_menu_overflow_description</item>
+    </style>
+
+    <!-- 皮肤 - 基础的 - 其他 - Overflow样式 -->
+    <style name="Skin.Base.Other.Overflow">
+        <item name="android:src">@drawable/abs__ic_menu_moreoverflow_holo_dark</item>
+        <item name="android:background">@drawable/abs__yingyonghui_actionbar_background</item>
+        <item name="android:contentDescription">@string/abs__action_menu_overflow_description</item>
+    </style>
+    
+    <!-- 亮色皮肤 -->
+    <style name="Skin.Light" parent="Skin.Base.Default">
+        <item name="homeAsUpIndicator">@drawable/ic_home_as_up</item>
+        <item name="actionBarStyle">@style/Skin.Light.ActionBar</item>
+        <item name="navigationTabStripBackground">#F1F1F1</item>
+        <item name="tabStripTextColor">#1588FE</item>
+    </style>
+    
+    <!-- 亮色动作栏 -->
+    <style name="Skin.Light.ActionBar" parent="Skin.Base.Default.ActionBar">
+        <item name="background">#F1F1F1</item>
+        <item name="android:background">#F1F1F1</item>
+    </style>
+    
+    <!-- 亮色无阴影 -->
+    <style name="Skin.Light.NoShadow" parent="Skin.Light">
+        <item name="windowContentOverlay">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!-- 暗色皮肤 -->
+    <style name="Skin.Dark" parent="Skin.Base.Other">
+        <item name="homeAsUpIndicator">@drawable/ic_home_as_up_white</item>
+        <item name="actionBarStyle">@style/Skin.Dark.ActionBar</item>
+        <item name="navigationTabStripBackground">#2E3038</item>
+        <item name="tabStripTextColor">#2E3038</item>
+    </style>
+
+    <!-- 暗色动作栏 -->
+    <style name="Skin.Dark.ActionBar" parent="Skin.Base.Other.ActionBar">
+        <item name="background">#2E3038</item>
+        <item name="android:background">#2E3038</item>
+    </style>
+
+    <!-- 暗色无阴影 -->
+    <style name="Skin.Dark.NoShadow" parent="Skin.Dark">
+        <item name="windowContentOverlay">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

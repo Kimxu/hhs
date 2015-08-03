@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="shadow_height">2dp</dimen><!-- 阴影 - 高度 -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="text_size_xlarge">18dip</dimen>
+    <dimen name="text_size_xlarge_s">17dip</dimen>
+    <dimen name="text_size_large">16dip</dimen>
+    <dimen name="text_size_large_s">16dip</dimen>
+    <dimen name="text_size_medium">14dip</dimen>
+    <dimen name="text_size_small">12dip</dimen>
+    <dimen name="text_size_xsmall">10dip</dimen>
+    <dimen name="abs__action_button_min_width">40dip</dimen>
+
+
+</resources>

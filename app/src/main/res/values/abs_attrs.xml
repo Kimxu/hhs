@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SherlockView">
+        <attr name="android:focusable" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SherlockTheme">
+        <!-- =================== -->
+        <!-- Action bar styles   -->
+        <!-- =================== -->
+        <eat-comment />
+        <!-- Default style for tabs within an action bar -->
+        <attr name="actionBarTabStyle" format="reference" />
+        <attr name="actionBarTabBarStyle" format="reference" />
+        <attr name="actionBarTabTextStyle" format="reference" />
+        <attr name="actionOverflowButtonStyle" format="reference" />
+        <!-- Reference to a style for the Action Bar -->
+        <attr name="actionBarStyle" format="reference" />
+        <!-- Reference to a style for the split Action Bar. This style
+             controls the split component that holds the menu/action
+             buttons. actionBarStyle is still used for the primary
+             bar. -->
+        <attr name="actionBarSplitStyle" format="reference" />
+        <!-- Reference to a theme that should be used to inflate widgets
+             and layouts destined for the action bar. Most of the time
+             this will be a reference to the current theme, but when
+             the action bar has a significantly different contrast
+             profile than the rest of the activity the difference
+             can become important. If this is set to @null the current
+             theme will be used.-->
+        <attr name="actionBarWidgetTheme" format="reference" />
+        <!-- Size of the Action Bar, including the contextual
+             bar used to present Action Modes. -->
+        <attr name="actionBarSize" format="dimension">
+            <enum name="wrap_content" value="0" />
+        </attr>
+        <!-- Custom divider drawable to use for elements in the action bar. -->
+        <attr name="actionBarDivider" format="reference" />
+        <!-- Custom item state list drawable background for action bar items. -->
+        <attr name="actionBarItemBackground" format="reference" />
+        <!-- TextAppearance style that will be applied to text that
+             appears within action menu items. -->
+        <attr name="actionMenuTextAppearance" format="reference" />
+        <!-- Color for text that appears within action menu items. -->
+        <attr name="actionMenuTextColor" format="color|reference" />
+
+        <!-- =================== -->
+        <!-- Action mode styles  -->
+        <!-- =================== -->
+        <eat-comment />
+        <attr name="actionModeStyle" format="reference" />
+        <attr name="actionModeCloseButtonStyle" format="reference" />
+        <!-- Background drawable to use for action mode UI -->
+        <attr name="actionModeBackground" format="reference" />
+        <!-- Background drawable to use for action mode UI in the lower split bar -->
+        <attr name="actionModeSplitBackground" format="reference" />
+        <!-- Drawable to use for the close action mode button -->
+        <attr name="actionModeCloseDrawable" format="reference" />
+        <!-- Drawable to use for the Share action button in WebView selection action modes -->
+        <attr name="actionModeShareDrawable" format="reference" />
+
+        <!-- PopupWindow style to use for action modes when showing as a window overlay. -->
+        <attr name="actionModePopupWindowStyle" format="reference" />
+
+        <!-- ============= -->
+        <!-- Button styles -->
+        <!-- ============= -->
+        <eat-comment />
+
+        <!-- Small Button style. -->
+        <attr name="buttonStyleSmall" format="reference" />
+
+        <!-- Background drawable for standalone items that need focus/pressed states. -->
+        <attr name="selectableItemBackground" format="reference" />
+
+
+        <!-- This Drawable is overlaid over the foreground of the Window's content area, usually
+             to place a shadow below the title.  -->
+        <attr name="windowContentOverlay" format="reference" />
+
+        <!-- Text color, typeface, size, and style for the text inside of a popup menu. -->
+        <attr name="textAppearanceLargePopupMenu" format="reference" />
+
+        <!-- Text color, typeface, size, and style for small text inside of a popup menu. -->
+        <attr name="textAppearanceSmallPopupMenu" format="reference" />
+
+
+        <!-- Text color, typeface, size, and style for "small" text. Defaults to secondary text color. -->
+        <attr name="textAppearanceSmall" format="reference" />
+
+        <attr name="textColorPrimary" format="color" />
+        <attr name="textColorPrimaryDisableOnly" format="color" />
+        <attr name="textColorPrimaryInverse" format="color" />
+
+        <attr name="spinnerItemStyle" format="reference" />
+        <attr name="spinnerDropDownItemStyle" format="reference" />
+
+        <!-- ============================ -->
+        <!-- SearchView styles and assets -->
+        <!-- ============================ -->
+        <eat-comment />
+        <!-- SearchView AutoCompleteTextView style -->
+        <attr name="searchAutoCompleteTextView" format="reference" />
+        <!-- SearchView dropdown background -->
+        <attr name="searchDropdownBackground" format="reference" />
+        <!-- SearchView close button icon -->
+        <attr name="searchViewCloseIcon" format="reference" />
+        <!-- SearchView Go button icon -->
+        <attr name="searchViewGoIcon" format="reference" />
+        <!-- SearchView Search icon -->
+        <attr name="searchViewSearchIcon" format="reference" />
+        <!-- SearchView Voice button icon -->
+        <attr name="searchViewVoiceIcon" format="reference" />
+        <!-- SearchView query refinement icon -->
+        <attr name="searchViewEditQuery" format="reference" />
+        <!-- SearchView query refinement icon background -->
+        <attr name="searchViewEditQueryBackground" format="reference" />
+        <!-- SearchView text field background for the left section -->
+        <attr name="searchViewTextField" format="reference" />
+        <!-- SearchView text field background for the right section -->
+        <attr name="searchViewTextFieldRight" format="reference" />
+        <!-- Text color for urls in search suggestions, used by things like global search and the browser. @hide -->
+        <attr name="textColorSearchUrl" format="reference|color" />
+        <!-- The list item height for search results. @hide -->
+        <attr name="searchResultListItemHeight" format="dimension" />
+        <!-- Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color. -->
+        <attr name="textAppearanceSearchResultTitle" format="reference" />
+        <!-- Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color. -->
+        <attr name="textAppearanceSearchResultSubtitle" format="reference" />
+
+
+        <!-- =========== -->
+        <!-- List styles -->
+        <!-- =========== -->
+        <eat-comment />
+
+        <!-- A smaller, sleeker list item height. -->
+        <attr name="listPreferredItemHeightSmall" format="dimension" />
+
+        <!-- The preferred padding along the left edge of list items. -->
+        <attr name="listPreferredItemPaddingLeft" format="dimension" />
+        <!-- The preferred padding along the right edge of list items. -->
+        <attr name="listPreferredItemPaddingRight" format="dimension" />
+
+        <!-- The preferred TextAppearance for the primary text of small list items. -->
+        <attr name="textAppearanceListItemSmall" format="reference" />
+
+
+        <attr name="windowMinWidthMajor" format="dimension" />
+        <attr name="windowMinWidthMinor" format="dimension" />
+
+
+        <!-- Drawable to use for generic vertical dividers. -->
+        <attr name="dividerVertical" format="reference" />
+
+        <attr name="actionDropDownStyle" format="reference" />
+        <attr name="actionButtonStyle" format="reference" />
+        <attr name="homeAsUpIndicator" format="reference" />
+        <attr name="dropDownListViewStyle" format="reference" />
+        <attr name="popupMenuStyle" format="reference" />
+        <attr name="dropdownListPreferredItemHeight" format="dimension" />
+        <attr name="actionSpinnerItemStyle" format="reference" />
+        <attr name="windowNoTitle" format="boolean" />
+        <attr name="windowActionBar" format="boolean" />
+        <attr name="windowActionBarOverlay" format="boolean" />
+        <attr name="windowActionModeOverlay" format="boolean" />
+        <attr name="windowSplitActionBar" format="boolean" />
+
+
+        <attr name="listPopupWindowStyle" format="reference" />
+
+
+        <!-- Default ActivityChooserView style. -->
+        <attr name="activityChooserViewStyle" format="reference" />
+        <!-- Drawable used as a background for activated items. -->
+        <attr name="activatedBackgroundIndicator" format="reference" />
+
+        <attr name="android:windowIsFloating" />
+    </declare-styleable>
+
+
+    <!-- Base attributes that are available to all Item objects. -->
+    <declare-styleable name="SherlockMenuItem">
+
+        <!-- The ID of the item. -->
+        <attr name="android:id" />
+
+        <!-- The category applied to the item.
+             (This will be or'ed with the orderInCategory attribute.) -->
+        <attr name="android:menuCategory" />
+
+        <!-- The order within the category applied to the item.
+             (This will be or'ed with the category attribute.) -->
+        <attr name="android:orderInCategory" />
+
+        <!-- The title associated with the item. -->
+        <attr name="android:title" />
+
+        <!-- The condensed title associated with the item.  This is used in situations where the
+             normal title may be too long to be displayed. -->
+        <attr name="android:titleCondensed" />
+
+        <!-- The icon associated with this item.  This icon will not always be shown, so
+             the title should be sufficient in describing this item. -->
+        <attr name="android:icon" />
+
+        <!-- The alphabetic shortcut key.  This is the shortcut when using a keyboard
+             with alphabetic keys. -->
+        <attr name="android:alphabeticShortcut" />
+
+        <!-- The numeric shortcut key.  This is the shortcut when using a numeric (e.g., 12-key)
+             keyboard. -->
+        <attr name="android:numericShortcut" />
+
+        <!-- Whether the item is capable of displaying a check mark. -->
+        <attr name="android:checkable" />
+
+        <!-- Whether the item is checked.  Note that you must first have enabled checking with
+             the checkable attribute or else the check mark will not appear. -->
+        <attr name="android:checked" />
+
+        <!-- Whether the item is shown/visible. -->
+        <attr name="android:visible" />
+
+        <!-- Whether the item is enabled. -->
+        <attr name="android:enabled" />
+
+        <!-- Name of a method on the Context used to inflate the menu that will be
+             called when the item is clicked. -->
+        <attr name="android:onClick" />
+
+        <!-- How this item should display in the Action Bar, if present. -->
+        <attr name="showAsAction">
+            <!-- Never show this item in an action bar, show it in the overflow menu instead.
+                 Mutually exclusive with "ifRoom" and "always". -->
+            <flag name="never" value="0" />
+            <!-- Show this item in an action bar if there is room for it as determined
+                 by the system. Favor this option over "always" where possible.
+                 Mutually exclusive with "never" and "always". -->
+            <flag name="ifRoom" value="1" />
+            <!-- Always show this item in an actionbar, even if it would override
+                 the system's limits of how much stuff to put there. This may make
+                 your action bar look bad on some screens. In most cases you should
+                 use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never". -->
+            <flag name="always" value="2" />
+            <!-- When this item is shown as an action in the action bar, show a text
+                 label with it even if it has an icon representation. -->
+            <flag name="withText" value="4" />
+            <!-- This item's action view collapses to a normal menu
+                 item. When expanded, the action view takes over a
+                 larger segment of its container. -->
+            <flag name="collapseActionView" value="8" />
+        </attr>
+
+        <!-- An optional layout to be used as an action view.
+             See {@link android.view.MenuItem#setActionView(android.view.View)}
+             for more info. -->
+        <attr name="actionLayout" format="reference" />
+
+        <!-- The name of an optional View class to instantiate and use as an
+             action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
+             for more info. -->
+        <attr name="actionViewClass" format="string" />
+
+        <!-- The name of an optional ActionProvider class to instantiate an action view
+             and perform operations such as default action for that menu item.
+             See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
+             for more info. -->
+        <attr name="actionProviderClass" format="string" />
+
+    </declare-styleable>
+
+</resources>

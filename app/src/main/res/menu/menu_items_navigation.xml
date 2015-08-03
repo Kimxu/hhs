@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <item
+        android:actionLayout="@layout/actionbar_account_lay"
+        android:id="@+id/account"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/personal_manage"/>
+
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:actionViewClass="kimxu.hhs.atys.widget.SimpleSearchView"
+        android:title="@string/search_text"/>
+    
+    <item
+        android:id="@+id/manage"
+        android:actionLayout="@layout/actionbar_title"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="@string/manage"/>
+
+</menu>

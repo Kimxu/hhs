@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/xuzhiguo/AndroidStudioProjects/hhs/sample/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="theme">#ff00bfff</color>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="reference|color" name="slidingBlock"/><attr format="boolean" name="allowWidthFull"/><attr format="boolean" name="disableViewPager"/><attr format="boolean" name="disableTensileSlidingBlock"/></declare-styleable>
+    <!-- From: file:/Users/xuzhiguo/AndroidStudioProjects/hhs/sample/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="shadow_height">2dp</dimen>
+    <!-- From: file:/Users/xuzhiguo/AndroidStudioProjects/hhs/sample/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="viewPagerId" type="id"/>
+    <!-- From: file:/Users/xuzhiguo/AndroidStudioProjects/hhs/sample/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">PagerSlidingTabStrip</string>
+    <!-- From: file:/Users/xuzhiguo/AndroidStudioProjects/hhs/sample/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="text_slidingTabTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_slide_title</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selector_slide_title</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>

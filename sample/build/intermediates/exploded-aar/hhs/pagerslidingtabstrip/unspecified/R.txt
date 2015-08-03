@@ -1,0 +1,9 @@
+int attr allowWidthFull 0x7f010001
+int attr disableTensileSlidingBlock 0x7f010003
+int attr disableViewPager 0x7f010002
+int attr slidingBlock 0x7f010000
+int[] styleable PagerSlidingTabStrip { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003 }
+int styleable PagerSlidingTabStrip_allowWidthFull 1
+int styleable PagerSlidingTabStrip_disableTensileSlidingBlock 3
+int styleable PagerSlidingTabStrip_disableViewPager 2
+int styleable PagerSlidingTabStrip_slidingBlock 0

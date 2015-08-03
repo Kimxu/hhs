@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ActionBar - 菜单图标 - 管理中心 -->
+    <attr name="actionBarMenuIconManageCenter" format="reference"/>
+
+    <!-- 导航页 - 标签栏 - 图标 - 推荐 -->
+    <attr name="navigationTabStripIconRecommend" format="color|reference"/>
+    <!-- 导航页 - 标签栏 - 图标 - 分类 -->
+    <attr name="navigationTabStripIconCategory" format="color|reference"/>
+    <!-- 导航页 - 标签栏 - 图标 - 新游 -->
+    <attr name="navigationTabStripIconNewGame" format="color|reference"/>
+    <!-- 导航页 - 标签栏 - 图标 - 专栏 -->
+    <attr name="navigationTabStripIconNews" format="color|reference"/>
+    <!-- 导航页 - 标签栏 - 图标 - 小组 -->
+    <attr name="navigationTabStripIconGroup" format="color|reference"/>
+    <!-- 导航页 - 标签栏 - 图标 - 评论 -->
+    <attr name="navigationTabStripIconComment" format="color|reference"/>
+    <!-- 导航页 - 标签栏 - 图标 - 榜单 -->
+    <attr name="navigationTabStripIconList" format="color|reference"/>
+    <!-- 导航页 - 标签栏 - 文本 - 颜色 -->
+    <attr name="navigationTabStripTextColor" format="color"/>
+    <!-- 导航页 - 标签栏 - 背景 -->
+    <attr name="navigationTabStripBackground" format="color|reference"/>
+    <!-- 导航页 - 标签栏 - 滑块 -->
+    <attr name="navigationTabStripSlidingBlock" format="color|reference"/>
+    <!-- ActionBar - 菜单图标 - 设置 -->
+    <attr name="actionBarMenuIconSetting" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 下载 -->
+    <attr name="actionBarMenuIconDownload" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 分享 -->
+    <attr name="actionBarMenuIconShare" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 添加 -->
+    <attr name="actionBarMenuIconAdd" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 移除 -->
+    <attr name="actionBarMenuIconRemove" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 排序 - 下载量 -->
+    <attr name="actionBarMenuIconSortByDownload" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 排序 - 热度 -->
+    <attr name="actionBarMenuIconSortByHot" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 排序 - 名称 -->
+    <attr name="actionBarMenuIconSortByName" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 筛选 -->
+    <attr name="actionBarMenuIconSelectItems" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 排序 - 大小 -->
+    <attr name="actionBarMenuIconSortBySize" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 排序 - 时间 -->
+    <attr name="actionBarMenuIconSortByTime" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 排序 - 查看数-->
+    <attr name="actionBarMenuIconSortByView" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 排序 - 回复数-->
+    <attr name="actionBarMenuIconSortByCount" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 排序 - 点赞书-->
+    <attr name="actionBarMenuIconSortBySupport" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 查看历史 -->
+    <attr name="actionBarMenuIconViewHistory" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 过滤 - 已安装-->
+    <attr name="actionBarMenuIconFilterByInstalled" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 过滤 - 破损包-->
+    <attr name="actionBarMenuIconFilterByBroken" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 过滤 - 重复包-->
+    <attr name="actionBarMenuIconFilterByDuplicate" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 调色板 -->
+    <attr name="actionBarMenuIconColorPicker" format="reference"/>
+    <!-- ActionBar - 菜单图标 - 更多 -->
+    <attr name="actionBarMenuIconMore" format="reference"/>
+    <!-- ActionBar - 菜单 - 文本 - 颜色 -->
+    <attr name="actionBarMenuTextColor" format="color"/>
+    <!-- 其他页面 - 标签栏 - 文本 - 颜色 -->
+    <attr name="tabStripTextColor" format="color"/>
+    <!-- 搜索界面 - 返回按钮 -->
+    <attr name="searchBarBack" format="reference"/>
+    <!-- 搜索界面 - 搜索按钮 -->
+    <attr name="searchBarSearch" format="reference"/>
+    <!-- 搜索界面 - 文字输入框 -->
+    <attr name="searchBarInputText" format="reference"/>
+    <!-- 搜索界面 - 文字输入框 -->
+    <attr name="searchBarInputTextDel" format="reference"/>
+    <!-- 搜索界面 - 输入框 - 文字颜色 -->
+    <attr name="searchBarInputTextColor" format="color"/>
+    <!-- 搜索界面 - 输入框 - 提示文字颜色 -->
+    <attr name="searchBarInputTextHintColor" format="color"/>
+
+    <declare-styleable name="SimpleSearchView">
+        <attr name="defaultQueryHint" format="string|reference"/>
+        <attr name="android:imeOptions" />
+        <attr name="android:inputType" />
+        <attr name="hintIconSrc" format="reference"/>
+        <attr name="actionButtonSrc" format="reference"/>
+        <attr name="searchViewBackground" format="reference"/>
+    </declare-styleable>
+    <attr name="focusable" format="boolean" />
+
+    <attr name="background" format="reference|color" />
+
+    <attr name="titleTextStyle" format="reference" />
+    <!--<attr name="actionOverflowButtonStyle" format="reference" />-->
+
+    <!--<attr name="actionBarStyle" format="reference" />-->
+
+    <!--<attr name="homeAsUpIndicator" format="reference" />-->
+
+    <!--<attr name="windowContentOverlay" format="reference" />-->
+
+</resources>

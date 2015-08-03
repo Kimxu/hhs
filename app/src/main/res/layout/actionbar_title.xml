@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?attr/actionButtonStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/actionbar_background_list"
+    android:gravity="center"
+    android:padding="5dp" >
+
+
+        <ImageView
+            android:id="@+id/tab_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="?attr/actionBarMenuIconManageCenter" />
+
+</FrameLayout>

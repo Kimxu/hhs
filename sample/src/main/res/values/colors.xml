@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme">#ff00bfff</color>
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <drawable name="white">#ffffffff</drawable>
+    <drawable name="gray">#ff333333</drawable>
+    <drawable name="black">#ff000000</drawable>
+    <drawable name="pure_blue">#77c8f7</drawable>
+    <drawable name="light_black">#ff333333</drawable>
+    <drawable name="light_gray">#f0f0f0</drawable>
+    <drawable name="list_item_bg">#ffF6F6F6</drawable>
+    <drawable name="cate_item_bg_deep_blue">#ffcbd9e3</drawable>
+    <drawable name="cate_item_bg_light_blue">#ffeaf0f4</drawable>
+    <drawable name="grey">#ff888888</drawable>
+
+</resources>

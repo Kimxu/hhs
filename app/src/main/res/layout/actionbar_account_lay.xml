@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?attr/actionButtonStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/actionbar_background_list"
+    android:gravity="center"
+    android:padding="5dp" >
+
+    <kimxu.hhs.atys.widget.img.NetworkImageView
+        android:id="@+id/actionbar_avt"
+    	android:layout_width="32dip"
+    	android:layout_height="32dip"
+    	android:layout_gravity="center"
+    	android:src="@drawable/ic_actionbar_avt_hint_cirle"/>
+
+
+</FrameLayout>

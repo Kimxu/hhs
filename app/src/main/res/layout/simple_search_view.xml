@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_content_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/ic_actionbar_search_bg"
+    android:orientation="horizontal"
+    android:descendantFocusability="afterDescendants"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/search_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dip"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_search" />
+
+    <EditText
+        android:id="@+id/search_text"
+        android:layout_width="0dp"
+        android:layout_height="36dip"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:paddingLeft="12dip"
+        android:background="@null"
+        android:textSize="14dip"
+        android:paddingRight="8dip"
+        android:singleLine="true" />
+    <!--android:textColor="?attr/searchBarInputTextColor"-->
+    <!--android:textColorHint="?attr/searchBarInputTextHintColor"-->
+
+    <!-- 附加功能按钮 可以添加点击事件 -->
+
+    <ImageButton
+        android:id="@+id/search_action_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:scaleType="center"
+        android:padding="16dip"
+        android:src="@drawable/ic_null"
+        android:background="@drawable/actionbar_background_list"
+        android:visibility="visible" />
+    
+     <ImageButton
+        android:id="@+id/search_submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:scaleType="center"
+        android:padding="16dip"
+        android:src="@drawable/ic_null"
+        android:background="@drawable/actionbar_background_list"
+        />
+
+</LinearLayout>

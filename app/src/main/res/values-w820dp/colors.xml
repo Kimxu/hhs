@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme">#ff00bfff</color>
+
+
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="bg_gray">#f0f0f0</color>
+    <color name="bule">#ff0000ff</color>
+    <color name="download_mgr_text_color">#484848</color>
+    <color name="tab_top_text_default_color">#666666</color>
+    <color name="search_bar_back">#ffd5d5d5</color>
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="progressbar_progress">#ffc20e</color>
+    <color name="shadow">#00000000</color>
+    <color name="hint_foreground_light">#808080</color>
+    <color name="silver_grey">#868686</color>
+    <color name="perms_dangerous_grp_color">@color/asset_info_color</color>
+    <color name="perms_dangerous_perm_color">@color/asset_info_color</color>
+    <color name="title_background">#828282</color>
+    <color name="view_background">#1c1c1c</color>
+    <color name="loading_line">#003c80</color>
+    <color name="search_tag">#2F6ABA</color>
+    <color name="asset_title_color">#484e5a</color>
+    <color name="search_recommend_title_color">#9A9A9A</color>
+    <color name="search_recommend_title_gene_color">#676767</color>
+    <color name="asset_info_color">#83898f</color>
+    <color name="asset_info_color1">#4d4d4d</color>
+    <color name="asset_info_intallcolor">#201406</color>
+    <color name="comment_reply">#2f8a23</color>
+    <color name="detail_like_dislike">#8f8e8f</color>
+
+</resources>
